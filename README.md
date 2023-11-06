@@ -20,7 +20,47 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Installation
+Clone Repository
+```bash
+git clone https://github.com/justnaf/cashier.git
+```
+
+First Step Use [composer](https://getcomposer.org/).
+```bash
+composer install
+```
+
+Use the package manager [npm](https://www.npmjs.com/) to install tailwind.
+
+```bash
+npm install
+```
+
+
+## Usage
+
+Migrate DB
+```bash
+php artisan migrate
+```
+For Add UserSeeder
+```bash
+php artisan db:seed UserSeeder
+```
+Npm run dev first
+```bash
+npm run dev
+```
+Ready To Serve
+```bash
+php artisan serve
+```
+
+## Preview
+
+
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+[MIT](https://choosealicense.com/licenses/mit/)
